@@ -17,3 +17,7 @@ El proyecto consiste en una API sencilla diseñada para la administración de us
 ## 🐳 Archivo `docker-compose.yml`  
 - **Backend**: Se configura para construir la aplicación a partir de la carpeta **backend**, donde se encuentra un **Dockerfile** que descarga y configura la imagen de **Node.js** desde **DockerHub**.  
 - **Frontend**: Se define para utilizar una imagen de **Nginx** obtenida de **DockerHub**, que se encargará de servir la interfaz gráfica de la aplicación.
+
+# Nueva funcionalidad Registro de peticiones HTTP
+- Esta funcionalidad sire para monitorear las solicitudes que llegan al servidor.
+- Cada vez que el servidor recibe una solicitud HTTP se registrará en la consola
